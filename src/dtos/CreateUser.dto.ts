@@ -1,5 +1,5 @@
-export interface CreateUserDto{
-    uesrname?: string;
-    email: string;
-    password:string;
-}
+// export interface CreateUserDto{
+//     uesrname?: string;
+//     email: string;
+//     password:string;
+// }
