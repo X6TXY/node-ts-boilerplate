@@ -1,6 +1,8 @@
-export interface User{
-    id:number;
-    email:string;
-    username:string;
+//Example
 
-}
+// export interface User{
+//     id:number;
+//     email:string;
+//     username:string;
+
+// }
