@@ -10,18 +10,33 @@ This is a boilerplate project for building Node.js applications using TypeScript
    npm install
    ```
 
+   or
+
+   ```bash
+   yarn install
+   ```
+
 2. **Start the development server:**
    ```bash
    npm run start:dev
+   ```
+   or
+   ```bash
+   yarn start:dev
    ```
 
 ### 📂 Explanation of Structure
 
 - **`src/`**: Source code directory.
-  - **`handlers/`**: Directory for request handlers.
-  - **`routes/`**: Directory for route definitions.
-  - **`modules/`**:Directory for util modules.
-  - **`middleware/`**: Directory for middleware functions.
+  - **`user/`**: Directory for user-related modules and components.
+    - **`dtos/`**: Directory for Data Transfer Objects (DTOs).
+      - **`CreateUser.dto.ts`**: DTO for user creation.
+    - **`types/`**: Directory for TypeScript types.
+      - **`response.ts`**: Type definitions for API responses.
+      - **`user-controller.ts`**: Type definitions for user controller.
+      - **`user-router.ts`**: Type definitions for user router.
+      - **`user-service.ts`**: Type definitions for user service.
+  - **`global-router.ts`**: File for global route definitions.
   - **`index.ts`**: Main entry point of the application.
   - **`logger.ts`**: Custom logging middleware.
 
